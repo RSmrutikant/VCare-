@@ -59,10 +59,13 @@
                         <h3 class="" id="exampleModalLabel">
                             Schedule a Visit
                         </h3>
-                        <h6>Select your Clinic</h6>
+                        <h6> </h6>
                     </div>
-
-                    <div class="modal-body clinic-wraper">
+                    <div class="modal-title clinic-modal-title"><br>
+                    <h6 ><i class="fas fa-phone" style="color:#917cff; font-size:large; margin-right: 5px"></i><a style="color: #000;" href="tel:14164131000">1 416 413 1000</a></h6><br>
+                    <h6 ><img src="./Assets/Images/email.png" alt="">&nbsp;<a style="color: #000;" href="mailto:housecall@vcareplus.ca">housecall@vcareplus.ca</a></h6><br>
+                    </div>
+                    <!-- <div class="modal-body clinic-wraper">
                             <div class="row d-flex">
                                 <div class="col-sm-4 d-flex justify-content-center">
                                     <div class="clinic-container text-wrap">
@@ -70,9 +73,9 @@
                                         <label for="checkbox"></label>
                                         <div class="clinic-info">
                                             <h3>Nanaksar Pharmacy</h3><br>
-                                            <!-- <a target="_blank" href="https://maps.app.goo.gl/d88Y74eoPZfCNYps5">
+                                            <a target="_blank" href="https://maps.app.goo.gl/d88Y74eoPZfCNYps5">
                                                 <p class="card-text"><img src="./Assets/Images/address.png" alt="">&nbsp; 2-511 Ray Lawson Blvd Brampton Ontario. L6Y0A2</p>
-                                            </a> -->
+                                            </a>
                                             <p class="card-text"><i class="fas fa-phone" style="color:#917cff; font-size:large; margin-right: 5px"></i><a style="color: #000;" href="tel:14164131000">1 416 413 1000</a></p>
                                             <p class="card-text"><img src="./Assets/Images/fax.png" alt="">&nbsp; 905 450 2425</p>
                                             <p class="card-text"><img src="./Assets/Images/email.png" alt="">&nbsp;<a style="color: #000;" href="mailto:housecall@vcareplus.ca">housecall@vcareplus.ca</a></p>
@@ -84,16 +87,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-4 d-flex justify-content-center">
+                                </div> -->
+                                <!-- <div class="col-sm-4 d-flex justify-content-center">
                                     <div class="clinic-container text-wrap">
                                         <input type="checkbox" id="checkbox2">
                                         <label for="checkbox2"></label>
                                         <div class="clinic-info">
                                             <h3>Guardian MarkhaMack Pharmacy</h3>
-                                            <!-- <a target="_blank" href="https://maps.app.goo.gl/7eP18rebB696ZcM57">
+                                            <a target="_blank" href="https://maps.app.goo.gl/7eP18rebB696ZcM57">
                                                 <p class="card-text"><img src="./Assets/Images/address.png" alt="">&nbsp; 7-9889 Hwy 48 Markham Ontario. L6E 0B7</p>
-                                            </a> -->
+                                            </a>
                                             <p class="card-text"><i class="fas fa-phone" style="color:#917cff; font-size:large; margin-right: 5px"></i> <a style="color: #000;" href="tel:19052943295">1 416 413 1000</a></p>
                                             <p class="card-text"><img src="./Assets/Images/fax.png" alt="">&nbsp; 905 294 2974</p>
                                             <p class="card-text"><img src="./Assets/Images/email.png" alt="">&nbsp; <a style="color: #000;" href="mailto:housecall@vcareplus.ca">housecall@vcareplus.ca</a></p>
@@ -112,11 +115,11 @@
                                         <label for="checkbox3"></label>
                                         <div class="clinic-info">
                                             <h3>Four Winds Roots Pharmacy</h3>
-                                            <!-- <a target="_blank" href="https://maps.app.goo.gl/BTD1egnyw56Bkb5a9">
+                                            <a target="_blank" href="https://maps.app.goo.gl/BTD1egnyw56Bkb5a9">
                                                 <p class="card-text"><img src="./Assets/Images/address.png" alt="">&nbsp; 3932 Keele St
                                                     Toronto
                                                     Ontario. M3J1N8</p>
-                                            </a> -->
+                                            </a>
                                             <p class="card-text"><i class="fas fa-phone" style="color:#917cff; font-size:large; margin-right: 5px"></i> <a style="color: #000;" href="tel:14163988200">1 416 413 1000</a></p>
                                             <p class="card-text"><img src="./Assets/Images/fax.png" alt="">&nbsp; 416 398 6745</p>
                                             <p class=" card-text"><img src="./Assets/Images/email.png" alt="">&nbsp; <a style="color: #000;" href="mailto:housecall@vcareplus.ca">housecall@vcareplus.ca</a></p>
@@ -128,7 +131,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
+
+
+
+
+
+                                
                             </div>
                         </div>
                 </div>

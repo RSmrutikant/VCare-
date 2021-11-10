@@ -1,7 +1,7 @@
 /* <!-- ṃodal css --> */
 .clinicListModal .clinic-dialog .modal-content {
-  width: 67vw;
-  margin-left: -53%;
+  width: 48vw;
+  margin-left: -15%;
   padding: 1.5em 3em;
 }
 h6{
@@ -187,8 +187,8 @@ h6{
 /* Medium device like IPad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
   .clinicListModal .clinic-dialog .modal-content {
-    width: 95vw;
-    margin-left: -22%;
+    width: 43vw;
+    margin-left: 18%;
     margin-right: 0 !important;
     padding: 1em;
   }
@@ -242,8 +242,8 @@ h6{
 /* Portrait and Landscape */
 @media only screen and (min-width: 1024px) and (max-height: 1380px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .clinicListModal .clinic-dialog .modal-content {
-    width: 88vw !important;
-    margin-left: -40%;
+    width: 36vw !important;
+    margin-left: 14%;
     margin-right: 0 !important;
     padding: 2em;
   }
@@ -351,7 +351,8 @@ h6{
 /* for larger screen resolution */
 @media only screen and (min-width: 1700px) and (max-width: 2560px) {
   .clinicListModal .clinic-dialog .modal-content {
-    width: 50vw !important;
+    width: 40vw !important;
+    margin-left: -32%;
   }
   .clinic-container {
     height: 300px;
