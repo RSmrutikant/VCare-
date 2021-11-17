@@ -33,7 +33,7 @@
 
 
     <!-- section-1 -->
-    <section class="section-1 container"style="padding-left: 0px;">
+    <section class="section-1 container" style="padding-left: 0px;">
         <div id="main" class="owl-carousel owl-theme section-1-carousel">
             <div class="item">
                 <a href="./Doctor-on-call.php">

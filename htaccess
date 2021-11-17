@@ -1,6 +1,10 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 
+RewriteCond %{QUERY_STRING} (.+)
+RewriteRule ^$ /%1 [QSD,L]
+
+
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
 
@@ -12,3 +16,7 @@ RewriteRule ^ /%1 [NC,L,R]
 
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+RewriteCond %{QUERY_STRING} (?:^|&)action=ajax_request&fn=download&id= [NC]
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteRule ^wp-admin/admin-ajax\.php$ dl-file.php?file=$1 [QSA,L]

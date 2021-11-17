@@ -194,26 +194,26 @@ else if($oper == "contactus")
     $pdo = NULL;
     echo json_encode($output);                       
 }
-else if($oper == "country")
-{
-	$output = array("aaData" => array(),"dbStatus" => "");
+// else if($oper == "country")
+// {
+// 	$output = array("aaData" => array(),"dbStatus" => "");
 
-    $query = "SELECT id,name,iso3 FROM countries ORDER BY id";
-	$res = $pdo->prepare($query);
-	$slno =1;
-	if($res->execute())
-	{
-        $dbStatus = "SUCCESS";
-        $output = array("dbStatus" => $dbStatus);		
-	    $result = $res->fetchAll();
-	    foreach($result as $row){
-			array_unshift($row,$slno);
-			$output['aaData'][] = $row;
-			$slno++;
-		}
+//     $query = "SELECT id,name,iso3 FROM countries ORDER BY id";
+// 	$res = $pdo->prepare($query);
+// 	$slno =1;
+// 	if($res->execute())
+// 	{
+//         $dbStatus = "SUCCESS";
+//         $output = array("dbStatus" => $dbStatus);		
+// 	    $result = $res->fetchAll();
+// 	    foreach($result as $row){
+// 			array_unshift($row,$slno);
+// 			$output['aaData'][] = $row;
+// 			$slno++;
+// 		}
 		
-	}
-	$pdo = NULL;
-	echo json_encode($output);                  
-}
+// 	}
+// 	$pdo = NULL;
+// 	echo json_encode($output);                  
+// }
 ?>

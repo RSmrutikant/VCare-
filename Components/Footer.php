@@ -67,7 +67,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
        <!-- Dynamic Country dropdown -->
-<script>
+<!-- <script>
     $(document).ready(function () {
         $.ajax({
         url: 'dbConnectivity.php?oper=country',
@@ -95,4 +95,4 @@
         }
         });
     });
-</script>
+</script> -->

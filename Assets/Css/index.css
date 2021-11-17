@@ -52,7 +52,7 @@ h2 {
   padding: 1.5rem;
   border: none;
   border-radius: 10px;
-  height: 85vh;
+  height: auto;
   text-align: center;
   position: relative;
 }
@@ -70,24 +70,22 @@ h2 {
 .section-1-card .card-text {
   font-size: 16px;
   color: #000;
- 
+
   font-weight: 400 !important;
   text-align: center;
   font-weight: 100;
 }
-.section-1-card > .arrow-btn {
-  margin-top: 12rem;
-}
+
 .section-1-card > .card-body > .arrow-btn {
+  text-align: center;
   background-image: url(../Images/arrow.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 50px;
   height: 50px;
-  position: absolute;
-  bottom: 25px;
-  left: 45%;
+  margin-left: 42%;
+  margin-top: 10%;
 }
 .section-1-card .arrow > i {
   font-size: 25px;
@@ -105,9 +103,6 @@ h2 {
   }
   .container-lg {
     padding: 0;
-  }
-  .section-1-card {
-    height: 75vh;
   }
   .secrion-1-text-body {
     padding: 1rem 0;
@@ -142,6 +137,9 @@ h2 {
   .section-1-card {
     height: 80vh;
   }
+  .section-1-card > .card-body > .arrow-btn {
+    margin-left: 45%;
+  }
   #nonLoop .owl-stage {
     padding-left: 0 !important;
   }
@@ -162,6 +160,11 @@ h2 {
   .section-1-card {
     height: 45vh;
   }
+  .section-1-card > .card-body > .arrow-btn {
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+  }
   #nonLoop .owl-stage {
     padding-left: 0 !important;
   }
@@ -175,11 +178,6 @@ h2 {
   .section-1 {
     width: 87vw;
     margin-top: 6rem;
-  }
-
-  .section-1-card > .card-body > .arrow-btn {
-    bottom: 15px;
-    left: 43%;
   }
 
   .section-1-card .card-title {
@@ -367,7 +365,6 @@ h2 {
   font-size: 18px;
   font-weight: 500;
   color: #000;
- 
 }
 @media all and (max-width: 600px) {
   .small_paragraph {

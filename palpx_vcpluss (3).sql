@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 09, 2021 at 01:47 PM
+-- Generation Time: Nov 15, 2021 at 12:56 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.23
 
@@ -42,14 +42,6 @@ CREATE TABLE `contactus` (
   `updated_by` varchar(30) DEFAULT NULL,
   `updated_on` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `contactus`
---
-
-INSERT INTO `contactus` (`id`, `first_name`, `last_name`, `email`, `phone`, `city`, `country`, `message`, `status`, `created_by`, `created_on`, `updated_by`, `updated_on`) VALUES
-(6, '', '', '', '', '', '', '', 1, '', '2021-11-09 12:34:21', NULL, NULL),
-(7, '', '', '', '', '', '', '', 1, '', '2021-11-09 12:38:19', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -365,14 +357,6 @@ CREATE TABLE `pharmacies` (
   `updated_on` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `pharmacies`
---
-
-INSERT INTO `pharmacies` (`id`, `first_name`, `last_name`, `email`, `phone`, `city`, `country`, `address`, `message`, `status`, `created_by`, `created_on`, `updated_by`, `updated_on`) VALUES
-(10, '', '', '', '', '', '', '', '', 1, '', '2021-11-09 12:40:54', NULL, NULL),
-(7, 'Bhagyashree', 'Patra', 'bhagyashreepatra004@gmail.com', '9348782963', 'Others', 'IND', 'D/463, Sector-8, Rourkela', 'yefgydlsfyasuyafgygsfgdsfd', 1, 'bhagyashreepatra004@gmail.com', '2021-10-31 06:34:00', NULL, NULL);
-
 -- --------------------------------------------------------
 
 --
@@ -397,13 +381,6 @@ CREATE TABLE `providers` (
   `updated_on` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `providers`
---
-
-INSERT INTO `providers` (`id`, `first_name`, `last_name`, `email`, `phone`, `city`, `country`, `specialty`, `licence`, `message`, `status`, `created_by`, `created_on`, `updated_by`, `updated_on`) VALUES
-(18, '', '', '', '', '', '', '', '', '', 1, '', '2021-11-09 12:40:34', NULL, NULL);
-
 -- --------------------------------------------------------
 
 --
@@ -422,14 +399,6 @@ CREATE TABLE `registration` (
   `updated_by` varchar(126) DEFAULT NULL,
   `updated_on` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `registration`
---
-
-INSERT INTO `registration` (`id`, `first_name`, `last_name`, `email`, `phone`, `status`, `created_by`, `created_on`, `updated_by`, `updated_on`) VALUES
-(19, '', '', '', '', 1, '', '2021-11-09 12:40:02', NULL, NULL),
-(17, 'Bhagyashree', 'Patra', 'bhagyashreepatra004@gmail.com', '9348782963', 1, 'bhagyashreepatra004@gmail.com', '2021-10-31 06:27:09', NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -476,25 +445,25 @@ ALTER TABLE `registration`
 -- AUTO_INCREMENT for table `contactus`
 --
 ALTER TABLE `contactus`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `pharmacies`
 --
 ALTER TABLE `pharmacies`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `providers`
 --
 ALTER TABLE `providers`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `registration`
 --
 ALTER TABLE `registration`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
